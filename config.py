@@ -1,0 +1,26 @@
+ml_10m ={
+    'movies_path':'ml-10m/movies.dat',
+    'ratings_path':'ml-10m/ratings.dat',
+    'tags_path':'ml-10m/tags.dat',
+    'movies_columns':
+        ['MovieID',
+         'Title',
+         'Genres'],
+    'ratings_columns':
+        ['UserID',
+         'MovieID',
+         'ratings',
+         'timestamps'],
+    'tags_columns':
+        ['userId',
+         'movieId',
+         'tag',
+         'timestamp'],
+    'ratio':0.1,
+    'embedding_dim':32,
+    'hidden_size':128,
+    'batch_size':128,
+    'epoch':1,
+    'learning_rate':0.01,
+    'fraction':0.3
+}
